@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.blogInfo {
+  width: 100%;
+}
+
+.blogDetailsTitle {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+
+.authorDetails {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.authorImage {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.blogAuthorName {
+  color: #8e8e8e;
+  font-size: 15px;
+}
+
+.blogImage {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.blogContent {
+  margin-top: 15px;
+  font-family: 'Roboto';
+  color: #2f4f4f;
+}
