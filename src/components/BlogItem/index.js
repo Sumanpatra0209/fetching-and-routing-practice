@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom'
 import './index.css'
 
 const BlogItem = props => {
-  const {BlogItemDetails} = props
-  const {id, imageUrl, topic, title, avatarUrl, author} = BlogItemDetails
+  const {blogItemDetails} = props
+  const {id, imageUrl, topic, title, avatarUrl, author} = blogItemDetails
 
   return (
     <li className="blogItem">
